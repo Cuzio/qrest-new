@@ -1,0 +1,162 @@
+.our-team-button {
+  /* width: 108px; */
+  padding: 5px 10px;
+  margin: 1rem 0;
+  /* height: 55px; */
+  /* flex-shrink: 0; */
+  border-radius: 56px;
+  border: 1px solid rgba(161, 174, 229, 0.2);
+  color: #c7cfef;
+  background-color: #a1aee533;
+}
+.our-team h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 36.484px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  color: #c7cfef;
+  margin: 0;
+}
+.our-team {
+  margin-bottom: 4rem;
+}
+.qrest-team h4 {
+  color: #ecf0ff;
+  font-family: "Inter", sans-serif;
+  font-size: 21.563px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px; /* 149.333% */
+}
+.qrest-team p {
+  color: #a0aee5;
+  font-family: "Inter", sans-serif;
+  font-size: 14.313px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.36px; /* 167.724% */
+  letter-spacing: 0.36px;
+  width: 90vw;
+  height: 75.72px;
+  flex-shrink: 0;
+}
+.team-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 884px; */
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  gap: 2rem;
+  /* border: 2px solid red; */
+}
+.martins,
+.stanley,
+.ruth,
+.colman,
+.max,
+.sunday,
+.aronu,
+.chima,
+.chijioke,
+.amaka {
+  /* border-radius: 8px; */
+  background-image: url("../images/team-background.png");
+  /* width: 180px; */
+  /* height: 235px; */
+  flex-shrink: 0;
+  padding: 1rem;
+  border-radius: 16px;
+  width: 250px;
+  height: 355px;
+  flex-shrink: 0;
+}
+.martins h1,
+.stanley h1,
+.ruth h1,
+.colman h1,
+.max h1,
+.sunday h1,
+.aronu h1,
+.chima h1,
+.chijioke h1,
+.amaka h1 {
+  color: #ecf0ff;
+  font-family: "Inter", sans-serif;
+  font-size: 14.563px;
+  text-align: center;
+  margin: 10px 0 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.martins p,
+.stanley p,
+.ruth p,
+.colman p,
+.max p,
+.sunday p,
+.aronu p,
+.chima p,
+.chijioke p,
+.amaka p {
+  color: #a0aee5;
+  font-family: "Inter", sans-serif;
+  font-size: 12.313px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+.martins hr,
+.stanley hr,
+.ruth hr,
+.colman hr,
+.max hr,
+.sunday hr,
+.aronu hr,
+.chima hr,
+.chijioke hr,
+.amaka hr {
+  height: 8px;
+  stroke-width: 3px;
+  stroke: rgba(161, 174, 229, 0.2);
+  color: #a1aee533;
+  margin: 1.5rem 0;
+}
+.martins-pic,
+.stanley-pic,
+.ruth-pic,
+.colman-pic,
+.max-pic,
+.sunday-pic,
+.aronu-pic,
+.chima-pic,
+.chijioke-pic,
+.amaka-pic {
+  border-radius: 50%;
+  margin: 2rem 4rem;
+  width: 90px;
+  height: 90px;
+}
+.team-social {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.team-connect {
+  border-radius: 70px;
+  border: 1px solid rgba(161, 174, 229, 0.11);
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 950px) {
+}

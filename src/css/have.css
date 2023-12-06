@@ -1,0 +1,11 @@
+.have-contain {
+  fill: rgba(161, 174, 229, 0.02);
+  width: 100%;
+  /* color: #a1aee505; */
+  margin-top: 8rem;
+  color: #74bfff, #a7d6f1, #fac4b8, #ffaf96, #ff9bab, #f09df0, #c78fff;
+}
+.vector1 {
+  position: absolute;
+  top: 1rem;
+}

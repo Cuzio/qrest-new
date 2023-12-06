@@ -1,0 +1,97 @@
+.feedback {
+  margin: 10rem 0 2rem;
+  text-align: center;
+}
+.feedback h2 {
+  margin-bottom: 2rem;
+  color: #c7cfef;
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 100% */
+}
+.feedback-marquee {
+  display: flex;
+  gap: 2rem;
+}
+.cardtitle {
+  color: #ecf0ff;
+  font-family: "Inter", sans-serif;
+  font-size: 21.563px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.2px; /* 149.333% */
+}
+.cardtext {
+  width: 100%;
+  padding: 2rem 0;
+  color: #a0aee5;
+  font-family: "Inter", sans-serif;
+  font-size: 16.594px;
+  font-style: normal;
+  font-weight: 400;
+}
+.cards {
+  border-radius: 16px;
+  background: radial-gradient(
+    70.71% 70.71% at 50% 50%,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  backdrop-filter: blur(29.27215003967285px);
+  padding: 2rem;
+}
+.cardname {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 154.839% */
+  letter-spacing: -0.32px;
+}
+.cardcompany {
+  color: #8a8ab4;
+  font-family: "Inter", sans-serif;
+  font-size: 12.797px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 187.546% */
+}
+.feedback-para {
+  color: #a0aee5;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin: 4rem 0 2rem;
+  font-size: 14.125px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.32px; /* 172.177% */
+  letter-spacing: 0.32px;
+}
+.feedback-logos {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 950px) {
+  .feedback {
+    margin: 5rem 0 2rem;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+  .feedback h2 {
+    margin-bottom: 2rem;
+    font-size: 70px;
+  }
+  .feedback-logos {
+    width: 90vw;
+    flex-wrap: wrap;
+  }
+}

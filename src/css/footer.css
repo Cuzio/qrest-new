@@ -1,0 +1,122 @@
+.first-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8rem 0 4rem;
+}
+.locate-link {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.locate h5,
+.navigation h5,
+.second-footer h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 16.852px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.92px; /* 160.793% */
+  letter-spacing: 0.42px;
+  color: #ebefff;
+  margin-bottom: 2rem;
+  /* border: 2px solid red; */
+}
+.foot-link {
+  display: grid;
+  gap: 1.2rem;
+}
+.locate p,
+.navigation p,
+.foot {
+  color: #a0aee5;
+  font-family: Inter;
+  font-size: 12.367px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.88px; /* 166.291% */
+  letter-spacing: 0.57px;
+  text-decoration: none;
+}
+.navigate {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8rem;
+}
+.second-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.second-footer h5 {
+  margin-bottom: 0;
+}
+.second-footer p,
+.desgin p {
+  color: rgba(161, 174, 229, 0.4);
+  font-family: Inter;
+  font-size: 10.688px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.28px; /* 167.724% */
+  letter-spacing: 0.28px;
+}
+.second-footer hr {
+  stroke-width: 1px;
+  stroke: rgba(161, 174, 229, 0.2);
+  color: #a1aee533;
+  margin: 1rem 0;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+.social {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.connect {
+  border-radius: 70px;
+  border: 1px solid rgba(161, 174, 229, 0.11);
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desgin {
+  display: flex;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 950px) {
+  .first-footer {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 4rem 0;
+  }
+  .navigate {
+    /* align-items: center; */
+    display: grid;
+    gap: 3rem;
+    /* justify-content: space-between; */
+    margin-left: 0.5rem;
+    grid-template-columns: auto auto auto;
+    /* flex-direction: column; */
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

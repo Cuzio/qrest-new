@@ -1,0 +1,119 @@
+.design-development h1 {
+  color: #c7cfef;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120px; /* 100% */
+  margin: 2rem 0;
+}
+.design-development-intro {
+  display: flex;
+  padding: 4rem 0;
+}
+.design-service-pix {
+  width: 625px;
+  height: 460.6px;
+  flex-shrink: 0;
+  /* border: 2px solid red; */
+}
+.design-service-user {
+  width: 309px;
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+  position: absolute;
+  top: 18rem;
+  right: 6rem;
+  padding: 10px 1rem 10px 1.5rem;
+  background-color: #292533;
+  color: #a0aee5;
+  border-radius: 10px;
+  border: 1px solid rgba(161, 174, 229, 0.2);
+}
+.design-service-subscription {
+  /* width: 309px; */
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+  position: absolute;
+  top: 24rem;
+  right: 16rem;
+  padding: 10px 1.5rem;
+  background-color: #292533;
+  color: #a0aee5;
+  border-radius: 10px;
+  border: 1px solid rgba(161, 174, 229, 0.2);
+}
+.design-service-personlized {
+  width: 309px;
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+  position: absolute;
+  top: 29rem;
+  right: 10rem;
+  padding: 10px 1rem 10px 1.5rem;
+  background-color: #292533;
+  color: #a0aee5;
+  border-radius: 10px;
+  border: 1px solid rgba(161, 174, 229, 0.2);
+}
+.design-service-graph {
+  /* width: 309px; */
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+  position: absolute;
+  top: 34rem;
+  right: 8rem;
+  padding: 10px 1.5rem;
+  background-color: #292533;
+  color: #a0aee5;
+  border-radius: 10px;
+  border: 1px solid rgba(161, 174, 229, 0.2);
+}
+.design-service-third {
+  width: 250px;
+  font-size: 12px;
+  font-family: "Manrope", sans-serif;
+  position: absolute;
+  top: 41rem;
+  right: 20rem;
+  padding: 10px 1.5rem;
+  background-color: #292533;
+  color: #a0aee5;
+  border-radius: 10px;
+  border: 1px solid rgba(161, 174, 229, 0.2);
+}
+.design-section2 {
+  display: flex;
+  gap: 2rem;
+}
+.design-approach {
+  width: 625px;
+  align-items: center;
+  gap: 60px;
+  flex-shrink: 0;
+  /* border: 2px solid red; */
+}
+.design-approach h3 {
+  color: #c7cfef;
+  font-family: "Inter", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+}
+.design-approach p {
+  color: #c7cfef;
+  font-family: "Manrope", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  margin: 1rem 0rem;
+  line-height: 28.8px; /* 160% */
+}
+.design-drawing {
+  width: 100%;
+}
+.design-bigLogo {
+  width: 100%;
+}

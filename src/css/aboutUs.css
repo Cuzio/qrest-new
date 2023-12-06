@@ -1,0 +1,206 @@
+.about-us {
+  display: flex;
+  /* align-items: center; */
+  gap: 4rem;
+}
+.about-us-left {
+  width: 500px;
+  margin: 0;
+}
+.about-us-left h5 {
+  color: #a1aee5;
+  font-family: "Inter", sans-serif;
+  font-size: 17.297px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px; /* 140.488% */
+  letter-spacing: 0.36px;
+}
+.about-us-left p {
+  color: #a1aee5b2;
+  font-family: "Inter", sans-serif;
+  font-size: 12.156px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+}
+.about-us-middle {
+  /* border: 2px solid red; */
+  width: 1200px;
+}
+.about-us-middle-button {
+  border-radius: 56px;
+  border: 1px solid rgba(161, 174, 229, 0.2);
+  width: 138px;
+  padding: 5px;
+  flex-shrink: 0;
+  color: #c7cfef;
+  background-color: #a1aee533;
+}
+.about-us-middle h3 {
+  text-align: left;
+  margin: 1rem 0;
+  color: #cad5ff;
+  font-family: "Inter", sans-serif;
+  font-size: 46.875px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px; /* 128% */
+  letter-spacing: -0.5px;
+}
+.about-us-middle p {
+  color: #a1aee5;
+  font-family: "Inter", sans-serif;
+  font-size: 12.453px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.36px; /* 166.291% */
+  letter-spacing: 0.36px;
+}
+.about-us-middle h4 {
+  color: #ecf0ff;
+  text-align: left;
+  margin: 3rem 0;
+  font-family: "Inter", sans-serif;
+  font-size: 28.359px;
+  font-style: normal;
+  font-weight: 400;
+}
+.frames {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin: 4rem 0;
+  /* flex-wrap: wrap; */
+}
+.frame-first {
+  border-radius: 8px;
+  background-image: url("../images/frame1.png");
+  width: 180px;
+  height: 235px;
+  flex-shrink: 0;
+  padding: 1rem;
+}
+.frame-logo {
+  width: 21px;
+  height: 21px;
+  flex-shrink: 0;
+}
+.frame-first h1,
+.frame-second h1,
+.frame-third h1 {
+  width: 51.247px;
+  height: 11.31px;
+  flex-shrink: 0;
+
+  font-size: 22px;
+  margin: 0 0.5rem 0;
+}
+.frame-logo1,
+.first-frame h1 {
+  color: #c9b7ff;
+}
+.frame-logo2,
+.second-frame h1 {
+  color: #ffe2cd;
+}
+.frame-logo3,
+.third-frame h1 {
+  color: #b0dbff;
+}
+.frame-first-text {
+  width: 154px;
+  height: 147px;
+  margin-top: 2rem;
+  padding: 2rem 1rem 0 1rem;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-image: url("../images/frame11.png");
+  text-align: right;
+}
+.frame-first-text h2,
+.frame-second-text h2,
+.frame-third-text h2 {
+  color: #c9b6ff;
+  font-family: "Inter", sans-serif;
+  font-size: 33.1px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50.34px; /* 152.085% */
+  letter-spacing: 0.662px;
+}
+.frame-first-text p,
+.frame-second-text p,
+.frame-third-text p {
+  color: #c9b6ff;
+  font-family: "Inter", sans-serif;
+  font-size: 10.219px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.22px; /* 165.098% */
+  letter-spacing: 0.2px;
+}
+.frame-second {
+  border-radius: 8px;
+  background-image: url("../images/frame2.png");
+  width: 180px;
+  height: 235px;
+  flex-shrink: 0;
+  padding: 1rem;
+}
+.frame-second-text {
+  width: 154px;
+  height: 147px;
+  margin-top: 2rem;
+  padding: 2rem 1rem 0 1rem;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-image: url("../images/frame22.png");
+  text-align: right;
+}
+.frame-third {
+  border-radius: 8px;
+  background-image: url("../images/frame3.png");
+  width: 180px;
+  height: 235px;
+  flex-shrink: 0;
+  padding: 1rem;
+}
+.frame-third-text {
+  width: 154px;
+  height: 147px;
+  margin-top: 2rem;
+  padding: 2rem 1rem 0 1rem;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background-image: url("../images/frame33.png");
+  text-align: right;
+}
+.about-marquee {
+  background: #0c071c;
+  margin: 2rem 0;
+  padding: 1rem;
+  color: #c7cfef;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 950px) {
+  .about-us {
+    gap: 1rem;
+  }
+  .about-us-left {
+    width: 20vw;
+  }
+  .about-us-middle {
+    width: 90vw;
+    margin-top: 8rem;
+  }
+  .frames {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid red; */
+  }
+}
