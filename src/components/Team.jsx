@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/team.css";
-import martins from "../images/martins.jpeg";
-import stanley from "../images/stanley.jpeg";
-import ruth from "../images/ruth.jpeg";
-import amaka from "../images/amaka.jpeg";
+import martins from "../images/martins.png";
+import stanley from "../images/stanley.png";
+import ruth from "../images/ruth.png";
+import amaka from "../images/amaka.png";
 import sunday from "../images/sunday.png";
 import colman from "../images/colman.png";
 import max from "../images/max.png";
