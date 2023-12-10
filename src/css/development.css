@@ -86,6 +86,8 @@
 .section2 {
   display: flex;
   gap: 2rem;
+  justify-content: center;
+  align-items: center;
 }
 .approach {
   width: 625px;
@@ -116,4 +118,75 @@
 }
 .development-bigLogo {
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .service-user {
+    top: 21rem;
+    right: 0rem;
+  }
+  .service-subscription {
+    top: 28rem;
+    right: 2rem;
+  }
+  .service-personlized {
+    top: 33rem;
+    right: 2rem;
+  }
+  .service-graph {
+    top: 40rem;
+    right: 4rem;
+  }
+  .service-third {
+    top: 46rem;
+    right: 5rem;
+  }
+  .approach p {
+    color: #c7cfef;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 1rem 0rem;
+    line-height: 28.8px; /* 160% */
+  }
+}
+@media screen and (max-width: 950px) {
+  .development-container {
+    margin: 0;
+    padding: 0;
+  }
+  .development h1 {
+    font-size: 3.5rem;
+    width: 90vw;
+    text-align: left;
+    /* border: 2px solid red; */
+  }
+  .development-intro {
+    flex-direction: column;
+    padding: 0 0 2rem;
+  }
+  .all {
+    display: none;
+  }
+  .service-pix {
+    width: 90vw;
+    height: 360.6px;
+  }
+  .service-user,
+  .service-subscription,
+  .service-personlized,
+  .service-graph,
+  .service-third {
+    position: static;
+    visibility: hidden;
+  }
+  .approach {
+    width: 90vw;
+    /* border: 2px solid red; */
+    margin-left: 2rem;
+  }
+  .development-bigLogo {
+    display: none;
+  }
 }

@@ -97,12 +97,12 @@ const Qwikserve = () => {
         <h3>Recent Projects</h3>
       </div>
       <div class="d-grid gap-2 qwik-recent-div">
-        <button class="recent" type="button" style={{ textAlign: "left" }}>
+        <button class="qwik-recent" type="button" style={{ textAlign: "left" }}>
           <Link to="/" className="nav-link" href="#">
             Catapult -UI/UX Design<figure class="ball"></figure>
           </Link>
         </button>
-        <button class="recent" type="button" style={{ textAlign: "left" }}>
+        <button class="qwik-recent" type="button" style={{ textAlign: "left" }}>
           <Link to="/" className="nav-link" href="#">
             Catapult - Brand Design<figure class="ball"></figure>
           </Link>
