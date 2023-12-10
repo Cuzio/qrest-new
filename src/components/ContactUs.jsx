@@ -29,8 +29,7 @@ const ContactUs = () => {
         <div className="contact-message">
           <h1>Contact Us</h1>
           <p>
-            Create stunning, professional-quality websites in record time with
-            our powerful UI kit. Elevate your SAAS game today!
+            Ready to cut through the noise and explore endless possibilities?
           </p>
           <form onSubmit={sendEmail}>
             <div className="details">

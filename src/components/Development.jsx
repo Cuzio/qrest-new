@@ -8,7 +8,7 @@ const Development = () => {
   return (
     <div className="container development-container">
       <div className="development">
-        <h1>Development</h1>
+        <h1>Software Development</h1>
         <div className="development-intro">
           <div className="service-intro">
             <img src={servicePix} alt="" className="service-pix" />
@@ -16,63 +16,83 @@ const Development = () => {
 
           <div className="all">
             <div className="service-user">
-              User sign-up and login functionality with email verification
+              Customized solutions tailored specifically to your business needs
             </div>
             <div className="service-subscription">
-              Subscription plans and pricing display
+              High quality and reliable software, thoroughly tested for bugs and
+              issues
             </div>
             <div className="service-personlized">
-              Personlized user dashboard displaying relevant information.
+              Exceptional user experience with intuitive and visually appealing
+              interfaces.
             </div>
             <div className="service-graph">
-              Graphs, Charts and data visualization
+              Timely delivery, ensuring projects are completed on schedule
             </div>
             <div className="service-third">
-              Third-party integration options (e.g CRM, payment systems)
+              Ongoing support and maintenance to keep your software up-to-date
+              and secure
             </div>
           </div>
         </div>
       </div>
       <div className="section2">
         <div className="approach">
-          <h3>How We Approach?</h3>
+          <h3>Software Development Services</h3>
           <p>
-            In our ever-increasingly digital environment, there is a constant
-            need for websites— and therefore for web designers and developers.
-            With 17.4 billion websites in existence as of January 2020, the
-            demand for web developers is only expected to rise.Web designers
-            with significant coding experience are typically in higher demand,
-            and can usually expect a higher salary.
+            Deliver tomorrow's solutions today with seamless software
+            experiences that captivate users. We create visually appealing and
+            intuitive interfaces to enhance user experience and seamlessly solve
+            problems.
           </p>
-          <p>1. Research And Analysis:</p>
+          <h4>Services:</h4>
+          <p>- Custom Software Development </p>
+          <p> - Mobile App Development</p>
+          <p> - Web Development </p>
+          <p> - UI/UX Design </p>
+          <p> - E-commerce Solutions </p>
+          <p>- Cloud-Based Solutions </p>
+          <p>- Software Testing and Quality Assurance </p>
+          <p>- Maintenance and Support</p>
+
+          <h4>
+            At Qrest, we follow a comprehensive approach to ensure successful
+            software development. Here's a breakdown of our process:
+          </h4>
           <p>
-            In our ever-increasingly digital environment, there is a constant
-            need for websites— and therefore for web designers and developers.
-            With 17.4 billion websites in existence as of January 2020, the
-            demand for web developers is only expected to rise.Web designers
-            with significant coding experience are typically in higher demand,
-            and can usually expect a higher salary. <br /> A career in website
-            design can involve the design, creation, and coding of a range of
-            website types. Other tasks will typically include liaising with
-            clients and discussing website specs, incorporating feedback,
-            working on graphic design and image editing, multimedia features
-            such as audio and video.
-          </p>
-          <p>2. Sketch And Visual Design:</p>
-          <p>
-            * In our ever-increasingly digital environment, there is a constant
-            need for websites and therefore for web designers and developers.
-            With 17.4 billion websites in existence as of January 2020, the
-            demand for web developers is only expected.
+            1. Understanding Requirements: We start by thoroughly understanding
+            your project requirements, goals, and target audience.
           </p>
           <p>
-            * A career in website design can involve the design, creation, and
-            coding of a range of website types. Other tasks will typically
-            include liaising with clients and discussing website specs,
-            incorporating feedback, working on graphic design and image editing,
-            multimedia features such as audio and video.
+            2. Planning and Design: Our team works closely with you to create a
+            solid plan and design the user interface (UI) and user experience
+            (UX) for your software. We focus on creating intuitive and visually
+            appealing designs.
           </p>
-          <img src={drawing} alt="" className="drawing" />
+          <p>
+            3. Development: Once the design is finalized, our skilled developers
+            start building the software, whether it's a mobile app or a website.
+            We use modern technologies and frameworks to ensure high-quality and
+            efficient development.
+          </p>
+          <p>
+            4. Testing and Quality Assurance: We conduct rigorous testing to
+            identify and fix any bugs or issues. Our QA team ensures that the
+            software meets all functional and performance requirements.
+          </p>
+          <p>
+            5. Deployment and Launch: After thorough testing and client
+            approval, we deploy the software to the desired platform, whether
+            it's the App Store, Google Play Store, or a web hosting service. We
+            assist with the launch process to ensure a smooth release.
+          </p>
+          <p>
+            6. Maintenance and Support: Our relationship doesn't end after the
+            launch. We provide ongoing maintenance and support to ensure your
+            software remains up-to-date and runs smoothly. We're always here to
+            address any issues or implement new features as needed.
+          </p>
+          {/* <img src={drawing} alt="" className="drawing" /> */}
         </div>
         <div>
           <img src={bigLogo} alt="" className="development-bigLogo" />

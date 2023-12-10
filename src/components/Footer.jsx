@@ -76,22 +76,22 @@ const Footer = () => {
 
       <div className="second-footer">
         <h5>Disclaimer:</h5>
-        <p>Limelight Framer Template © 2023</p>
+        <p>Qrest Software Development Company © 2023</p>
         <p>
-          The content in this template is entirely fictitious and for
-          demonstration purposes only. It is crucial to understand that all the
-          information provided here is purely fictional and does not represent
-          real events, individuals, entities, or circumstances. This content is
-          not based on any actual data, facts, or situations, and any
-          resemblance to reality is entirely coincidental. It does not offer any
-          real-world advice or information and should not be used as such.{" "}
+          Qrest is committed to delivering exceptional solutions tailored to
+          meet the needs of businesses. While we strive to provide effective
+          results, it's important to note that individual outcomes may vary
+          based on various factors. We highly recommend engaging in detailed
+          discussions with our team to fully understand your unique requirements
+          and objectives. Qrest cannot guarantee specific results, as success
+          depends on several variables including market conditions, competition,
+          and customer preferences.{" "}
         </p>
         <p>
-          This template is intended for educational and re-editing purposes
-          only, and it's data and content should not be relied upon for making
-          any real-life decisions. By accessing or using this template, you
-          acknowledge and agree to these disclaimers. Your reliance on this
-          content is at your own risk.
+          By choosing to utilize our services, you acknowledge and agree to the
+          terms and conditions outlined by Qrest. These terms are designed to
+          protect both parties and ensure a transparent and productive working
+          relationship.
         </p>
         <hr />
       </div>
@@ -111,8 +111,8 @@ const Footer = () => {
           </Link>
         </div>
         <div className="desgin">
-          <p>Designed by Hassan</p>
-          <p>Powered by Framer</p>
+          <p>Designed by Qrest</p>
+          <p>martins@qrest.ng</p>
         </div>
       </div>
     </div>

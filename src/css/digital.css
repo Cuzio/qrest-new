@@ -1,4 +1,4 @@
-.development h1 {
+.digital h1 {
   color: #c7cfef;
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -8,18 +8,19 @@
   line-height: 120px; /* 100% */
   margin: 2rem 0;
 }
-.development-intro {
+.digital-intro {
   display: flex;
   padding: 4rem 0;
 }
-.service-pix {
+.digital-service-pix {
   width: 625px;
   height: 460.6px;
   flex-shrink: 0;
   /* border: 2px solid red; */
 }
-.service-user {
+.digital-service-user {
   width: 309px;
+  text-align: center;
   font-size: 12px;
   font-family: "Manrope", sans-serif;
   position: absolute;
@@ -31,8 +32,9 @@
   border-radius: 10px;
   border: 1px solid rgba(161, 174, 229, 0.2);
 }
-.service-subscription {
+.digital-service-subscription {
   width: 309px;
+  text-align: center;
   font-size: 12px;
   font-family: "Manrope", sans-serif;
   position: absolute;
@@ -44,8 +46,9 @@
   border-radius: 10px;
   border: 1px solid rgba(161, 174, 229, 0.2);
 }
-.service-personlized {
+.digital-service-personlized {
   width: 309px;
+  text-align: center;
   font-size: 12px;
   font-family: "Manrope", sans-serif;
   position: absolute;
@@ -57,8 +60,9 @@
   border-radius: 10px;
   border: 1px solid rgba(161, 174, 229, 0.2);
 }
-.service-graph {
+.digital-service-graph {
   /* width: 309px; */
+  text-align: center;
   font-size: 12px;
   font-family: "Manrope", sans-serif;
   position: absolute;
@@ -70,8 +74,9 @@
   border-radius: 10px;
   border: 1px solid rgba(161, 174, 229, 0.2);
 }
-.service-third {
+.digital-service-third {
   width: 250px;
+  text-align: center;
   font-size: 12px;
   font-family: "Manrope", sans-serif;
   position: absolute;
@@ -83,20 +88,20 @@
   border-radius: 10px;
   border: 1px solid rgba(161, 174, 229, 0.2);
 }
-.section2 {
+.digital-section2 {
   display: flex;
   gap: 2rem;
   justify-content: center;
   align-items: center;
 }
-.approach {
+.digital-approach {
   width: 625px;
   align-items: center;
   gap: 60px;
   flex-shrink: 0;
   /* border: 2px solid red; */
 }
-.approach h3 {
+.digital-approach h3 {
   color: #c7cfef;
   font-family: "Inter", sans-serif;
   font-size: 26px;
@@ -104,7 +109,7 @@
   font-weight: 400;
   line-height: 48px; /* 120% */
 }
-.approach h4 {
+.digital-approach h4 {
   color: #c7cfef;
   font-family: "Inter", sans-serif;
   font-size: 16px;
@@ -112,7 +117,7 @@
   font-weight: 400;
   line-height: 19.2px; /* 120% */
 }
-.approach p {
+.digital-approach p {
   color: #c7cfef;
   font-family: "Manrope", sans-serif;
   font-size: 12px;
@@ -121,35 +126,35 @@
   margin: 1rem 0rem;
   line-height: 28.8px; /* 160% */
 }
-.drawing {
+.digital-drawing {
   width: 100%;
 }
-.development-bigLogo {
+.digital-bigLogo {
   width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
-  .service-user {
+  .digital-service-user {
     top: 21rem;
     right: 0rem;
   }
-  .service-subscription {
+  .digital-service-subscription {
     top: 28rem;
     right: 2rem;
   }
-  .service-personlized {
+  .digital-service-personlized {
     top: 33rem;
     right: 2rem;
   }
-  .service-graph {
+  .digital-service-graph {
     top: 40rem;
     right: 4rem;
   }
-  .service-third {
+  .digital-service-third {
     top: 46rem;
     right: 5rem;
   }
-  .approach p {
+  .digital-approach p {
     color: #c7cfef;
     font-family: "Manrope", sans-serif;
     font-size: 16px;
@@ -160,42 +165,42 @@
   }
 }
 @media screen and (max-width: 950px) {
-  .development-container {
+  .digital-container {
     margin: 0;
     padding: 0;
   }
-  .development h1 {
+  .digital h1 {
     font-size: 3.5rem;
     width: 90vw;
     text-align: center;
-    line-height: 60px;
+    line-height: 60px; /* 100% */
     /* border: 2px solid red; */
   }
-  .development-intro {
+  .digital-intro {
     flex-direction: column;
     padding: 0 0 2rem;
   }
-  .all {
+  .digital-all {
     display: none;
   }
-  .service-pix {
+  .digital-service-pix {
     width: 90vw;
     height: 360.6px;
   }
-  .service-user,
-  .service-subscription,
-  .service-personlized,
-  .service-graph,
-  .service-third {
+  .digital-service-user,
+  .digital-service-subscription,
+  .digital-service-personlized,
+  .digital-service-graph,
+  .digital-service-third {
     position: static;
     visibility: hidden;
   }
-  .approach {
+  .digital-approach {
     width: 90vw;
     /* border: 2px solid red; */
     margin-left: 2rem;
   }
-  .development-bigLogo {
+  .digital-bigLogo {
     display: none;
   }
 }

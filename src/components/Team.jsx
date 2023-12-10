@@ -27,8 +27,9 @@ const Team = () => {
       <div className="qrest-team">
         <h4>Qrest Team</h4>
         <p>
-          Limelight provides you with powerful growth solutions and it enables
-          you to Craft exceptional, top- notch websites.
+          We are your passionate partners working behind the scenes to ensure
+          your business grows and stands tall. We gladly handle the heavy
+          lifting while you blaze the trail.
         </p>
       </div>
 

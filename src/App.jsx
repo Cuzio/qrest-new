@@ -9,6 +9,8 @@ import Aboutpage from "./pages/Aboutpage";
 import Contact from "./pages/Contact";
 import Project from "./pages/Project";
 import Design from "./components/Design";
+import Branding from "./components/Branding";
+import Digital from "./components/Digital";
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Project />} />
           <Route path="/design" element={<Design />} />
+          <Route path="/branding" element={<Branding />} />
+          <Route path="/digital" element={<Digital />} />
         </Routes>
         <Footer />
       </div>

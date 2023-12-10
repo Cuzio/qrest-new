@@ -30,9 +30,9 @@ const Hero = () => {
           data-aos="fade-up"
         >
           <p className="">
-            Founded in 2023, Qrest is a strategic banding, software development
-            and digital marketing company that champions the biggest ideas and
-            leaps next level of innovation.
+            Qrest is a strategic branding, software development and digital
+            marketing company that champions the biggest ideas and leaps next
+            level of innovation.
           </p>
           <h1 className="">Excution</h1>
         </div>

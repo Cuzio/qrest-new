@@ -9,6 +9,13 @@ const Accordion = () => {
   const navigate = useNavigate();
   return (
     <div className="container">
+      <div className="serve">
+        <h3>Our Services</h3>
+        <p>
+          Stand out with cutting-edge strategies and solutions.  It's more about
+          you and less about others.
+        </p>
+      </div>
       <div className="acc" id="service">
         <div className="accordion" id="accordionExample">
           <div className=" acc-body">
@@ -21,7 +28,7 @@ const Accordion = () => {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Development 01
+                Software Development 01
               </button>
             </h2>
             <div
@@ -57,7 +64,7 @@ const Accordion = () => {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                UI/UX Design 02
+                Branding and Design 02
               </button>
             </h2>
             <div
@@ -73,7 +80,7 @@ const Accordion = () => {
                   perfectly.
                 </p>
                 <button className="acc-bod-but">
-                  <a href="/design" className="nav-link">
+                  <a href="/branding" className="nav-link">
                     Learn More <img src={arrowRight} alt="" />
                   </a>
                   {/* <p onClick={() => navigate("/design")}>Learn More</p>
@@ -94,7 +101,7 @@ const Accordion = () => {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Branding and Design 03
+                Digital Marketing 03
               </button>
             </h2>
             <div
@@ -110,7 +117,7 @@ const Accordion = () => {
                   perfectly.
                 </p>
                 <button className="acc-bod-but">
-                  <a href="/" className="nav-link">
+                  <a href="/digital" className="nav-link">
                     Learn More <img src={arrowRight} alt="" />
                   </a>
                   {/* <Link to="/" className="nav-link" href="#">

@@ -18,50 +18,48 @@ const AboutUs = () => {
             <button className="about-us-middle-button">About Us</button>
             <h3>More about Qrest </h3>
             <p>
-              Create stunning, professional-quality websites in record time with
-              our powerful UI kit. Elevate your SAAS game today! Limelight
-              provides you with powerful growth solutions and it enables you to
-              Craft exceptional, top-notch websites swiftly using our robust UI
-              toolkit. Create stunning, professional-quality websites in record
-              time with our powerful UI kit. Elevate your SAAS game today!
-              Limelight provides you with powerful growth solutions and it
-              enables you to Craft exceptional, top-notch websites swiftly using
-              our robust UI toolkit.
+              Qrest is a user-centric business solution provider that delivers
+              fast and efficient solutions, including branding, custom software
+              development [ mobile apps & websites ], and digital marketing
+              strategies, to help businesses achieve their goals. while also
+              creating digital products that make life easier for Nigerians and
+              beyond.
             </p>
             <p>
-              Qrest provides you with powerful growth solutions and it enables
-              you to Craft exceptional, top-notch websites swiftly using our
-              robust UI toolkit.
+              Qrest provides you with powerful growth solutions and Qrest
+              company is the powerhouse of digital solutions 🎯
             </p>
 
             <h4>Scaling the Businesses</h4>
             <p>
-              Qrest provides you with powerful growth solutions and it enables
-              you to Craft exceptional, top-notch websites swiftly using our
-              robust UI toolkit.
+              At Qrest, our mission is to provide you with top-notch branding,
+              design, and development services for mobile apps and websites. We
+              also specialize in digital marketing strategies that will help
+              your brand soar in the digital landscape.
             </p>
 
             <div className="frames">
               <div className="frame-first">
                 <div className="d-flex first-frame">
                   <img src={logo} alt="" className="frame-logo frame-logo1" />
-                  <h1>Framer</h1>
+                  <h1>Qrest</h1>
                 </div>
                 <div className="frame-first-text">
-                  <h2>48X</h2>
-                  <p>Limelight provides you with powerful growth.</p>
+                  <h2>100X</h2>
+                  <p>We provide you brand with powerful growth.</p>
                 </div>
               </div>
 
               <div className="frame-second">
                 <div className="d-flex second-frame">
                   <img src={logo} alt="" className="frame-logo frame-logo2" />
-                  <h1>Framer</h1>
+                  <h1>Qrest</h1>
                 </div>
                 <div className="frame-second-text">
-                  <h2>86%</h2>
+                  <h2>100%</h2>
                   <p>
-                    It enables you to craft exceptional, top-notch websites.
+                    We value customer sactisfaction and offer top-notch quality
+                    work
                   </p>
                 </div>
               </div>
@@ -69,11 +67,14 @@ const AboutUs = () => {
               <div className="frame-third">
                 <div className="d-flex third-frame">
                   <img src={logo} alt="" className="frame-logo frame-logo3" />
-                  <h1>Framer</h1>
+                  <h1>Qrest</h1>
                 </div>
                 <div className="frame-third-text">
-                  <h2>20X</h2>
-                  <p>Limelight provides you with powerful growth solutions.</p>
+                  <h2>1X</h2>
+                  <p>
+                    Consistent daily progress, we steadily elevate our skills,
+                    processes, and outcomes.{" "}
+                  </p>
                 </div>
               </div>
             </div>

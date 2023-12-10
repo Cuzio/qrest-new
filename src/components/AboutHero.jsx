@@ -8,16 +8,17 @@ const AboutHero = () => {
     <div className="container">
       <div className="abouthero">
         <div className="about-intro">
-          <h3>Empowering saas with</h3>
-          <h3>cutting edge technology</h3>
+          <h3>Stand out with cutting-edge </h3>
+          <h3>strategies and solutions.</h3>
           <p className="create">
-            Create stunning, professional-quality websites in record time with
-            our powerful UI kit. Elevate your SAAS game today!
+            Create stunning, professional-quality Branding, Mobile Apps,
+            Websites and Digital Marketing!
           </p>
           <p className="about-qrest">
-            Qrest provides you with powerful growth solutions and it enables you
-            to Craft exceptional, top-notch websites swiftly using our robust UI
-            toolkit.
+            Qrest is a combination of two-factor elements that drive our brand
+            values and services. Q- Quick, and crest which signifies being at
+            the top. So we are quick in providing solutions that put businesses
+            at the top of the competition.
           </p>
           <button className="about-button">
             <Link to="/contact" className="nav-link" href="#">
@@ -27,18 +28,18 @@ const AboutHero = () => {
         </div>
 
         <div>
-          <div className="user">
-            User sign-up and login functionality with email verification
-          </div>
+          <div className="user">We're obsessed with brand satisfaction.</div>
           <div className="subscription">
-            Subscription plans and pricing display
+            We create easy to use mobile apps & websites
           </div>
           <div className="personlized">
-            Personlized user dashboard displaying relevant information.
+            We create marketing strategies tailored to your brand.
           </div>
-          <div className="graph">Graphs, Charts and data visualization</div>
+          <div className="graph">
+            We're flexible and we think out of the box!
+          </div>
           <div className="third">
-            Third-party integration options (e.g CRM, payment systems)
+            Stand out with cutting-edge strategies and solutions.
           </div>
         </div>
       </div>
