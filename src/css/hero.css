@@ -1,6 +1,9 @@
 .herotext {
   width: 75vw;
 }
+.small {
+  display: none;
+}
 .herotext h1 {
   color: #c7cfef;
   font-family: "Inter", sans-serif;
@@ -25,8 +28,18 @@
   color: #c7cfef;
   width: 332px;
 }
+.hero-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
 .video {
   width: 100%;
+}
+.video-play {
+  align-items: center;
+  width: 80vw;
 }
 .marquee {
   background: #0c071c;
@@ -43,6 +56,51 @@
 @media screen and (max-width: 950px) {
   .herotext {
     width: 100vw;
+  }
+  .first {
+    gap: 1rem;
+    margin-left: 0.5rem;
+  }
+  .herotext h1 {
+    font-size: 50px;
+    width: 50vw;
+    height: 0px;
+    /* border: 2px solid red; */
+  }
+  .herotext-image {
+    width: 40vw;
+    max-height: 40vh;
+    margin: 2rem 1rem 0rem 0rem;
+  }
+  .herotext p {
+    margin: 0;
+    display: flex;
+    color: #c7cfef;
+    width: 332px;
+  }
+}
+@media screen and (max-width: 747px) {
+  .herotext {
+    width: 100vw;
+  }
+  .small {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .small h1 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .small p {
+    margin-top: 5rem;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+  .big {
+    display: none;
   }
   .first {
     gap: 1rem;

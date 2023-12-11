@@ -9,7 +9,7 @@ const Qwikserve = () => {
   return (
     <div className="container">
       <div className="qwikserve">
-        <h1>Qwikserve - UI/UX Design</h1>
+        <h1>Qwikserve - Development</h1>
         <div className="project-qwikserve">
           <div>
             <img src={qwikserve} alt="" className="qwikserve-pix" />
@@ -48,42 +48,26 @@ const Qwikserve = () => {
         </div>
         <div className="qwik-low">
           <div className="qwik-approach">
-            <h3>How We Approach?</h3>
+            <h3>Software Design and Development</h3>
             <p>
-              In our ever-increasingly digital environment, there is a constant
-              need for websites— and therefore for web designers and developers.
-              With 17.4 billion websites in existence as of January 2020, the
-              demand for web developers is only expected to rise.Web designers
-              with significant coding experience are typically in higher demand,
-              and can usually expect a higher salary.
+              We worked on designing the user interface and user experience for
+              Qwikserve's customer app. We also developed the app, allowing
+              customers to easily order food from different restaurants in Uyo
+              for pickup or delivery. The app also offers customized delivery
+              options for gas refills and laundry services.
             </p>
-            <h4>1. Research And Analysis:</h4>
+            <h4>Rider App:</h4>
             <p>
-              In our ever-increasingly digital environment, there is a constant
-              need for websites— and therefore for web designers and developers.
-              With 17.4 billion websites in existence as of January 2020, the
-              demand for web developers is only expected to rise.Web designers
-              with significant coding experience are typically in higher demand,
-              and can usually expect a higher salary. <br /> A career in website
-              design can involve the design, creation, and coding of a range of
-              website types. Other tasks will typically include liaising with
-              clients and discussing website specs, incorporating feedback,
-              working on graphic design and image editing, multimedia features
-              such as audio and video.
+              We also developed a rider app for Qwikserve. This app allows
+              riders to receive orders and ensure timely deliveries. It includes
+              features to help riders keep track of necessary information and
+              tasks.
             </p>
-            <h4>2. Sketch And Visual Design:</h4>
+            <h4>Admin Panel:</h4>
             <p>
-              * In our ever-increasingly digital environment, there is a
-              constant need for websites and therefore for web designers and
-              developers. With 17.4 billion websites in existence as of January
-              2020, the demand for web developers is only expected.
-            </p>
-            <p>
-              * A career in website design can involve the design, creation, and
-              coding of a range of website types. Other tasks will typically
-              include liaising with clients and discussing website specs,
-              incorporating feedback, working on graphic design and image
-              editing, multimedia features such as audio and video.
+              We worked on an admin panel that controls the entire flow of
+              operations from the customer to the rider. This panel ensures
+              smooth operations and oversees every aspect of the process.
             </p>
             <img src={qwikops} alt="" className="qwikops" />
           </div>
@@ -98,14 +82,9 @@ const Qwikserve = () => {
       </div>
       <div class="d-grid gap-2 qwik-recent-div">
         <button class="qwik-recent" type="button" style={{ textAlign: "left" }}>
-          <Link to="/" className="nav-link" href="#">
-            Catapult -UI/UX Design<figure class="ball"></figure>
-          </Link>
-        </button>
-        <button class="qwik-recent" type="button" style={{ textAlign: "left" }}>
-          <Link to="/" className="nav-link" href="#">
+          <a href="/catapult" className="nav-link">
             Catapult - Brand Design<figure class="ball"></figure>
-          </Link>
+          </a>
         </button>
       </div>
     </div>

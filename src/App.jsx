@@ -11,6 +11,7 @@ import Project from "./pages/Project";
 import Design from "./components/Design";
 import Branding from "./components/Branding";
 import Digital from "./components/Digital";
+import Catapult from "./components/Catapult";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/design" element={<Design />} />
           <Route path="/branding" element={<Branding />} />
           <Route path="/digital" element={<Digital />} />
+          <Route path="/catapult" element={<Catapult />} />
         </Routes>
         <Footer />
       </div>

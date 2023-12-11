@@ -13,19 +13,20 @@ const Recent = () => {
           <figure class="ball"></figure>
         </div> */}
         <button class="recent" type="button" style={{ textAlign: "left" }}>
-          <Link to="/project" className="nav-link" href="#">
+          <a href="/project" className="nav-link">
             Qwiserve - UI/UX Design<figure class="ball"></figure>
-          </Link>
+          </a>
+          {/* <Link to="/project" className="nav-link" href="#">
+            Qwiserve - UI/UX Design<figure class="ball"></figure>
+          </Link> */}
         </button>
         <button class="recent" type="button" style={{ textAlign: "left" }}>
-          <Link to="/" className="nav-link" href="#">
-            Catapult -UI/UX Design<figure class="ball"></figure>
-          </Link>
-        </button>
-        <button class="recent" type="button" style={{ textAlign: "left" }}>
-          <Link to="/" className="nav-link" href="#">
+          <a href="/catapult" className="nav-link">
             Catapult - Brand Design<figure class="ball"></figure>
-          </Link>
+          </a>
+          {/* <Link to="/" className="nav-link" href="#">
+            Catapult - Brand Design<figure class="ball"></figure>
+          </Link> */}
         </button>
       </div>
     </div>

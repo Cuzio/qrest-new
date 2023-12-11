@@ -88,7 +88,22 @@
   }
   .feedback h2 {
     margin-bottom: 2rem;
-    font-size: 70px;
+    font-size: 60px;
+  }
+  .feedback-logos {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 747px) {
+  .feedback {
+    margin: 5rem 0 2rem;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+  .feedback h2 {
+    margin-bottom: 2rem;
+    font-size: 40px;
   }
   .feedback-logos {
     width: 90vw;

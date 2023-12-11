@@ -127,42 +127,6 @@ const Accordion = () => {
               </div>
             </div>
           </div>
-          <div className="acc-body">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button collapsed acc-but"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFour"
-                aria-expanded="false"
-                aria-controls="collapseFour"
-              >
-                UI Animation 04
-              </button>
-            </h2>
-            <div
-              id="collapseFour"
-              className="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div className="accordion-body acc-bod">
-                <img src={accordion} alt="" className="acc-pix" />
-                <p>
-                  Personalize your business with our service! Our experienced
-                  team creates unique and functional pieces of furniture that
-                  perfectly.
-                </p>
-                <button className="acc-bod-but">
-                  <a href="/" className="nav-link">
-                    Learn More <img src={arrowRight} alt="" />
-                  </a>
-                  {/* <Link to="/" className="nav-link" href="#">
-                    Learn More <img src={arrowRight} alt="" />
-                  </Link> */}
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
