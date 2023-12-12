@@ -16,7 +16,7 @@ const Recent = () => {
           <a href="/project" className="nav-link">
             Qwiserve - UI/UX Design<figure class="ball"></figure>
           </a>
-          {/* <Link to="/project" className="nav-link" href="#">
+          {/* <Link to="/project" className="nav-link" href="/project">
             Qwiserve - UI/UX Design<figure class="ball"></figure>
           </Link> */}
         </button>
