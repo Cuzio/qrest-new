@@ -39,9 +39,8 @@ const Accordion = () => {
               <div className="accordion-body acc-bod">
                 <img src={accordion} alt="" className="acc-pix" />
                 <p>
-                  Personalize your business with our service! Our experienced
-                  team creates unique and functional pieces of furniture that
-                  perfectly.
+                  Deliver tomorrow's solutions today with seamless software
+                  experiences that captivate users.
                 </p>
                 <button className="acc-bod-but">
                   <a href="/service" className="nav-link">
@@ -74,11 +73,7 @@ const Accordion = () => {
             >
               <div className="accordion-body acc-bod">
                 <img src={accordion} alt="" className="acc-pix" />
-                <p>
-                  Personalize your business with our service! Our experienced
-                  team creates unique and functional pieces of furniture that
-                  perfectly.
-                </p>
+                <p>Stand out – your brand deserves the spotlight.</p>
                 <button className="acc-bod-but">
                   <a href="/branding" className="nav-link">
                     Learn More <img src={arrowRight} alt="" />
@@ -112,9 +107,7 @@ const Accordion = () => {
               <div className="accordion-body acc-bod">
                 <img src={accordion} alt="" className="acc-pix" />
                 <p>
-                  Personalize your business with our service! Our experienced
-                  team creates unique and functional pieces of furniture that
-                  perfectly.
+                  Become the industry HOT SHOT and the brand everyone loves.
                 </p>
                 <button className="acc-bod-but">
                   <a href="/digital" className="nav-link">

@@ -190,3 +190,41 @@
     margin: 3.5rem 0;
   }
 }
+@media screen and (max-width: 747px) {
+  .abouthero {
+    height: 550px;
+    flex-direction: column;
+  }
+  .about-intro {
+    width: 100vw;
+    padding: 0 1rem;
+    /* border: 2px solid red; */
+  }
+  .about-intro h3 {
+    font-size: 34px;
+    line-height: 30.4px;
+    width: 90vw;
+    height: 34px;
+  }
+  .create {
+    width: 95vw;
+    height: 100px;
+    margin: 0;
+  }
+  .about-qrest {
+    width: 95vw;
+    height: 90px;
+    /* border: 2px solid red; */
+  }
+  .user,
+  .subscription,
+  .personlized,
+  .graph,
+  .third {
+    position: static;
+    visibility: hidden;
+  }
+  .about-button {
+    margin: 6rem 0;
+  }
+}

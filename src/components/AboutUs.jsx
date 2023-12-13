@@ -45,7 +45,7 @@ const AboutUs = () => {
                   <h1>Qrest</h1>
                 </div>
                 <div className="frame-first-text">
-                  <h2>100X</h2>
+                  <h2>100%</h2>
                   <p>We provide you brand with powerful growth.</p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const AboutUs = () => {
                   <h1>Qrest</h1>
                 </div>
                 <div className="frame-third-text">
-                  <h2>1X</h2>
+                  <h2>1%</h2>
                   <p>
                     Consistent daily progress, we steadily elevate our skills,
                     processes, and outcomes.{" "}

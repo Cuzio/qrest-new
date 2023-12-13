@@ -99,14 +99,17 @@
 .frame-logo1,
 .first-frame h1 {
   color: #c9b7ff;
+  fill: #c9b7ff;
 }
 .frame-logo2,
 .second-frame h1 {
   color: #ffe2cd;
+  fill: #ffe2cd;
 }
 .frame-logo3,
 .third-frame h1 {
   color: #b0dbff;
+  fill: #b0dbff;
 }
 .frame-first-text {
   width: 154px;
