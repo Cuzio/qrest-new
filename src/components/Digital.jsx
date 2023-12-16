@@ -1,8 +1,9 @@
 import React from "react";
-import servicePix from "../images/service-pix.png";
+import digital from "../images/digitalPix.png";
 import "../css/digital.css";
 import drawing from "../images/drawing.png";
 import bigLogo from "../images/big-logo.png";
+import Have from "./Have";
 
 const Digital = () => {
   return (
@@ -11,7 +12,7 @@ const Digital = () => {
         <h1>Digital Marketing</h1>
         <div className="digital-intro">
           <div className="digital-service-intro">
-            <img src={servicePix} alt="" className="digital-service-pix" />
+            <img src={digital} alt="" className="digital-service-pix" />
           </div>
 
           <div className="digital-all">
@@ -88,6 +89,7 @@ const Digital = () => {
           </div>
         </div>
       </div>
+      <Have />
     </div>
   );
 };

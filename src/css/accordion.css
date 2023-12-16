@@ -59,6 +59,9 @@
   font-weight: 500;
   line-height: 25.6px; /* 160% */
 }
+.acc-pix {
+  width: 100%;
+}
 
 @media screen and (max-width: 1280px) {
 }

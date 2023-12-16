@@ -4,7 +4,7 @@ import "../css/hero.css";
 import AOS from "aos";
 import "aos/dist/aos.js";
 import "aos/dist/aos.css";
-import image from "../images/image.png";
+import home from "../images/heroPix.png";
 import video from "../images/video.png";
 import vid from "../images/vid.mp4";
 
@@ -22,7 +22,7 @@ const Hero = () => {
           >
             <h1 className="">Concept</h1>
             <img
-              src={image}
+              src={home}
               alt="a picture will be here"
               className="herotext-image"
             />

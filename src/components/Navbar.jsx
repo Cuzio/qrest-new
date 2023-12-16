@@ -13,7 +13,7 @@ const Navbar = () => {
             <img src={logo} alt="Logo" />
           </Link>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler text-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -21,7 +21,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon text-light"></span>
           </button>
           <div
             className="collapse navbar-collapse text-white"

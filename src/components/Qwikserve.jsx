@@ -4,12 +4,13 @@ import qwikops from "../images/qwikops.png";
 import bigLogo from "../images/big-logo.png";
 import "../css/qwikserve.css";
 import { Link } from "react-router-dom";
+import Have from "./Have";
 
 const Qwikserve = () => {
   return (
     <div className="container">
       <div className="qwikserve">
-        <h1>Qwikserve - Development</h1>
+        <h1>QwikServe - UI/UX & Development</h1>
         <div className="project-qwikserve">
           <div>
             <img src={qwikserve} alt="" className="qwikserve-pix" />
@@ -36,7 +37,7 @@ const Qwikserve = () => {
               <h5>Website Link</h5>
               <p>
                 <a
-                  href="https://www.pixelhunt.com"
+                  href="https://www.qwikServe.ng"
                   target="_blanck"
                   className="qwikserke-link"
                 >
@@ -87,6 +88,7 @@ const Qwikserve = () => {
           </a>
         </button>
       </div>
+      <Have />
     </div>
   );
 };

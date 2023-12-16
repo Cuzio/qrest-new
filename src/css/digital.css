@@ -112,7 +112,8 @@
 .digital-approach h4 {
   color: #c7cfef;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
+  margin: 3rem 0;
   font-style: normal;
   font-weight: 400;
   line-height: 19.2px; /* 120% */
@@ -185,7 +186,7 @@
   }
   .digital-service-pix {
     width: 90vw;
-    height: 360.6px;
+    height: 40vh;
   }
   .digital-service-user,
   .digital-service-subscription,

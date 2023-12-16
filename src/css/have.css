@@ -1,11 +1,61 @@
-.have-contain {
-  fill: rgba(161, 174, 229, 0.02);
-  width: 100%;
-  /* color: #a1aee505; */
-  margin-top: 8rem;
-  color: #74bfff, #a7d6f1, #fac4b8, #ffaf96, #ff9bab, #f09df0, #c78fff;
+.have {
+  background-image: url("../images/final1.png");
+  width: 80%;
+  height: 60vh;
+  margin: 4rem auto;
+  border-radius: 70px;
+  background-color: blue;
+  /* flex-shrink: 0; */
 }
-.vector1 {
-  position: absolute;
-  top: 1rem;
+.haveeffe {
+  background-image: url("../images/effect.png");
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 70px;
+}
+.haveeffe h4 {
+  color: #c7cfef;
+  font-family: "Inter", sans-serif;
+  font-size: 41.666px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85.53px; /* 126.034% */
+}
+.haveBB {
+  border-radius: 56px;
+  border: 1px solid rgba(161, 174, 229, 0.2);
+  width: 138px;
+  padding: 10px 5px;
+  flex-shrink: 0;
+  background-color: #a1aee533;
+}
+.have-bb {
+  text-decoration: none;
+  color: #c7cfef;
+}
+
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 950px) {
+  .have {
+    width: 90%;
+    height: 50vh;
+  }
+  .haveeffe h4 {
+    font-size: 21.666px;
+  }
+}
+@media screen and (max-width: 747px) {
+  .have {
+    width: 90%;
+    height: 30vh;
+  }
+  .haveeffe h4 {
+    font-size: 21.666px;
+  }
 }

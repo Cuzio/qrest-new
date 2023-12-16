@@ -1,8 +1,9 @@
 import React from "react";
-import servicePix from "../images/service-pix.png";
+import accordion from "../images/accordion.png";
 import "../css/development.css";
 import drawing from "../images/drawing.png";
 import bigLogo from "../images/big-logo.png";
+import Have from "./Have";
 
 const Development = () => {
   return (
@@ -11,7 +12,7 @@ const Development = () => {
         <h1>Software Development</h1>
         <div className="development-intro">
           <div className="service-intro">
-            <img src={servicePix} alt="" className="service-pix" />
+            <img src={accordion} alt="" className="service-pix" />
           </div>
 
           <div className="all">
@@ -98,6 +99,7 @@ const Development = () => {
           <img src={bigLogo} alt="" className="development-bigLogo" />
         </div>
       </div>
+      <Have />
     </div>
   );
 };

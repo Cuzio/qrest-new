@@ -14,7 +14,7 @@ const Recent = () => {
         </div> */}
         <button class="recent" type="button" style={{ textAlign: "left" }}>
           <a href="/project" className="nav-link">
-            Qwiserve - UI/UX Design<figure class="ball"></figure>
+            QwikServe - UI/UX & Development<figure class=" balls"></figure>
           </a>
           {/* <Link to="/project" className="nav-link" href="/project">
             Qwiserve - UI/UX Design<figure class="ball"></figure>

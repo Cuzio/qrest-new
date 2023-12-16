@@ -77,6 +77,11 @@
   justify-content: center;
   /* border: 2px solid red; */
 }
+.one,
+.two,
+.three {
+  width: 200px;
+}
 
 @media screen and (max-width: 1280px) {
 }

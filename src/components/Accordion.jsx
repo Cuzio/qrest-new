@@ -1,5 +1,7 @@
 import React from "react";
 import accordion from "../images/accordion.png";
+import digital from "../images/digitalPix.png";
+import branding from "../images/brandingPix.png";
 import arrowRight from "../images/arrow-right.png";
 import "../css/accordion.css";
 import { Link } from "react-router-dom";
@@ -72,7 +74,7 @@ const Accordion = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body acc-bod">
-                <img src={accordion} alt="" className="acc-pix" />
+                <img src={branding} alt="" className="acc-pix" />
                 <p>Stand out – your brand deserves the spotlight.</p>
                 <button className="acc-bod-but">
                   <a href="/branding" className="nav-link">
@@ -105,7 +107,7 @@ const Accordion = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body acc-bod">
-                <img src={accordion} alt="" className="acc-pix" />
+                <img src={digital} alt="" className="acc-pix" />
                 <p>
                   Become the industry HOT SHOT and the brand everyone loves.
                 </p>

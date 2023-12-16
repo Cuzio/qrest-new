@@ -14,8 +14,8 @@ const Homepage = () => {
       <Accordion />
       <Recent />
       <Feedback />
-      <Blog />
-      {/* <Have /> */}
+      {/* <Blog /> */}
+      <Have />
     </div>
   );
 };

@@ -21,9 +21,9 @@ const Footer = () => {
             <a href="/#project" className="foot">
               Recent Projects
             </a>
-            <a href="/#blog" className="foot">
+            {/* <a href="/#blog" className="foot">
               Recent Blogs
-            </a>
+            </a> */}
           </div>
           {/* <p>Our Services</p>
           <p>Recent Projects</p>
@@ -100,19 +100,40 @@ const Footer = () => {
           <Link to="/" className="connect" href="#">
             <img src={twitter} alt="Logo" className="social-logo" />
           </Link>
-          <Link to="/" className="connect" href="#">
+          {/* <Link to="/" className="connect" href="#">
             <img src={facebook} alt="Logo" className="social-logo" />
-          </Link>
-          <Link to="/" className="connect" href="#">
+          </Link> */}
+          <a
+            href="https://www.facebook.com/profile.php?id=61552925021943&mibextid=JRoKGi"
+            target="_blanck"
+            className="connect"
+          >
+            <img src={facebook} alt="Logo" className="social-logo" />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/qrest-software-development-company/"
+            target="_blanck"
+            className="connect"
+          >
             <img src={linkedin} alt="Logo" className="social-logo" />
-          </Link>
-          <Link to="/" className="connect" href="#">
+          </a>
+          <a
+            href="https://instagram.com/qrest_software_development?igshid=ZTM4ZDRiNzUwMw=="
+            target="_blanck"
+            className="connect"
+          >
             <img src={instagram} alt="Logo" className="social-logo" />
-          </Link>
+          </a>
+          {/* <Link to="/" className="connect" href="#">
+            <img src={linkedin} alt="Logo" className="social-logo" />
+          </Link> */}
+          {/* <Link to="/" className="connect" href="#">
+            <img src={instagram} alt="Logo" className="social-logo" />
+          </Link> */}
         </div>
         <div className="desgin">
           <p>Designed by Qrest</p>
-          <p>martins@qrest.ng</p>
+          <p>qrestcompany@gmail.com</p>
         </div>
       </div>
     </div>

@@ -24,6 +24,10 @@
   position: relative;
   /* overflow: hidden; */
 }
+.recent:hover .balls {
+  animation: slide 0.2s linear;
+  display: block;
+}
 .recent:hover .ball {
   animation: slide 0.2s linear;
   display: block;
@@ -61,8 +65,20 @@
   animation: slide 0.2s linear;
   display: block;
 } */
+.balls {
+  background-image: url("../images/qwik-hover1.png");
+  /* background: #2db34a; */
+  border-radius: 50px;
+  height: 250px;
+  position: absolute;
+  width: 250px;
+  top: -50px;
+  left: 800px;
+  transform: rotate(10deg);
+  display: none;
+}
 .ball {
-  background-image: url("../images/hover1.png");
+  background-image: url("../images/cata-hover.png");
   /* background: #2db34a; */
   border-radius: 50px;
   height: 250px;
@@ -85,6 +101,9 @@
     height: 100px;
     font-size: 25px;
   }
+  .recent:hover .balls {
+    animation: none;
+  }
   .recent:hover .ball {
     animation: none;
   }
@@ -100,6 +119,12 @@
     }
   }
   .ball {
+    height: 200px;
+    width: 230px;
+    top: -50px;
+    left: 640px;
+  }
+  .balls {
     height: 200px;
     width: 230px;
     top: -50px;
@@ -129,6 +154,9 @@
   .recent:hover .ball {
     animation: none;
   }
+  .recent:hover .balls {
+    animation: none;
+  }
   @keyframes slide {
     0% {
       left: 140px;
@@ -139,6 +167,14 @@
       left: 140px;
       top: -50;
     }
+  }
+  .balls {
+    height: 200px;
+    width: 130px;
+    top: -50px;
+    left: 140px;
+    visibility: hidden;
+    /* border: 2px solid red; */
   }
   .ball {
     height: 200px;
@@ -168,6 +204,9 @@
     height: 100px;
     font-size: 25px;
   }
+  .recent:hover .balls {
+    animation: none;
+  }
   .recent:hover .ball {
     animation: none;
   }
@@ -181,6 +220,13 @@
       left: 440px;
       top: -50;
     }
+  }
+  .balls {
+    height: 200px;
+    width: 230px;
+    top: -50px;
+    left: 440px;
+    visibility: hidden;
   }
   .ball {
     height: 200px;

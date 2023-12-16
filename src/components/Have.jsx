@@ -1,15 +1,19 @@
 import React from "react";
-import have from "../images/have.png";
-import vector from "../images/vector.png";
-import vector1 from "../images/vector1.png";
 import "../css/have.css";
 
 const Have = () => {
   return (
     <div className="container">
-      <img src={have} alt="" className="have-contain" />
-      <img src={vector1} alt="" className="vector1" />
-      <img src={vector} alt="" className="vector" />
+      <div className="have">
+        <div className="haveeffe">
+          <h4>Have a project in mind?</h4>
+          <button className="haveBB" type="submit">
+            <a href="/contact" className="have-bb">
+              Let's talk
+            </a>
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
