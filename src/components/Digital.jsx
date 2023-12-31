@@ -4,6 +4,7 @@ import "../css/digital.css";
 import drawing from "../images/drawing.png";
 import bigLogo from "../images/big-logo.png";
 import Have from "./Have";
+import Whatsapp from "./Whatsapp";
 
 const Digital = () => {
   return (
@@ -90,6 +91,7 @@ const Digital = () => {
         </div>
       </div>
       <Have />
+      <Whatsapp />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import AboutHero from "../components/AboutHero";
 import AboutUs from "../components/AboutUs";
 import Team from "../components/Team";
 import Have from "../components/Have";
+import Whatsapp from "../components/Whatsapp";
 
 const Aboutpage = () => {
   return (
@@ -11,6 +12,7 @@ const Aboutpage = () => {
       <AboutUs />
       <Team />
       <Have />
+      <Whatsapp />
     </div>
   );
 };

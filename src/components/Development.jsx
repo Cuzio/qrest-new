@@ -4,6 +4,7 @@ import "../css/development.css";
 import drawing from "../images/drawing.png";
 import bigLogo from "../images/big-logo.png";
 import Have from "./Have";
+import Whatsapp from "./Whatsapp";
 
 const Development = () => {
   return (
@@ -100,6 +101,7 @@ const Development = () => {
         </div>
       </div>
       <Have />
+      <Whatsapp />
     </div>
   );
 };

@@ -36,17 +36,17 @@ const Team = () => {
       <div className="team-profile">
         <div className="martins">
           <img src={martins} alt="" className="martins-pic" />
-          <h1>Okechukwu Martins</h1>
+          <h1>Okechukwu Martins [CEO]</h1>
           <p>Product Designer</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -58,13 +58,13 @@ const Team = () => {
           <p>Product Designer</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -76,13 +76,13 @@ const Team = () => {
           <p>Content Manager</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -94,13 +94,13 @@ const Team = () => {
           <p>Project Manager</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -112,13 +112,13 @@ const Team = () => {
           <p>Moblie App Developer</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -130,13 +130,13 @@ const Team = () => {
           <p>Front-end Developer</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -148,13 +148,13 @@ const Team = () => {
           <p>Graphic Designer</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -166,13 +166,13 @@ const Team = () => {
           <p>Graphic Designer</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -184,13 +184,13 @@ const Team = () => {
           <p>Digital Marketer</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>
@@ -202,13 +202,13 @@ const Team = () => {
           <p>Social Media Marketer</p>
           <hr />
           <div className="team-social">
-            <Link to="/" className="team-connect" href="#">
+            <Link to="#" className="team-connect" href="#">
               <img src={twitter} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={facebook} alt="Logo" className="" />
             </Link>
-            <Link to="/" className="connect" href="#">
+            <Link to="#" className="connect" href="#">
               <img src={linkedin} alt="Logo" className="" />
             </Link>
           </div>

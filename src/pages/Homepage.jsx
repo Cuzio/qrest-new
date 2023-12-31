@@ -6,6 +6,7 @@ import Feedback from "../components/Feedback";
 import Blog from "../components/Blog";
 import Have from "../components/Have";
 import Accordion from "../components/Accordion";
+import Whatsapp from "../components/Whatsapp";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
       <Feedback />
       {/* <Blog /> */}
       <Have />
+      <Whatsapp />
     </div>
   );
 };

@@ -114,4 +114,9 @@
     width: 90vw;
     flex-wrap: wrap;
   }
+  .cards {
+    /* border: 2px solid red; */
+    width: 50vw;
+    /* margin: 0 2rem; */
+  }
 }

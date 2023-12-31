@@ -5,6 +5,7 @@ import bigLogo from "../images/big-logo.png";
 import "../css/catapult.css";
 import { Link } from "react-router-dom";
 import Have from "./Have";
+import Whatsapp from "./Whatsapp";
 
 const Catapult = () => {
   return (
@@ -74,11 +75,12 @@ const Catapult = () => {
       <div class="d-grid gap-2 cata-recent-div">
         <button class="cata-recent" type="button" style={{ textAlign: "left" }}>
           <a href="/project" className="nav-link">
-            Qwiserve - UI/UX Design<figure class="balls"></figure>
+            QwikServe - UI/UX & Development<figure class="balls"></figure>
           </a>
         </button>
       </div>
       <Have />
+      <Whatsapp />
     </div>
   );
 };

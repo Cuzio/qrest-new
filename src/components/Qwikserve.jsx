@@ -5,6 +5,7 @@ import bigLogo from "../images/big-logo.png";
 import "../css/qwikserve.css";
 import { Link } from "react-router-dom";
 import Have from "./Have";
+import Whatsapp from "./Whatsapp";
 
 const Qwikserve = () => {
   return (
@@ -41,7 +42,7 @@ const Qwikserve = () => {
                   target="_blanck"
                   className="qwikserke-link"
                 >
-                  www.pixelhunt.com
+                  www.qwikServe.ng
                 </a>
               </p>
             </div>
@@ -89,6 +90,7 @@ const Qwikserve = () => {
         </button>
       </div>
       <Have />
+      <Whatsapp />
     </div>
   );
 };

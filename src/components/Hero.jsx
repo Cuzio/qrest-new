@@ -70,18 +70,17 @@ const Hero = () => {
       </div>
 
       <marquee behavior="infinite" direction="" className="marquee">
-        UI/UX Design <GoDiamond className="m-2" /> Development{" "}
-        <GoDiamond className="m-2" /> UI Amination <GoDiamond className="m-2" />{" "}
-        Branding Design <GoDiamond className="m-2" />
-        UI/UX Design <GoDiamond className="m-2" /> Development{" "}
-        <GoDiamond className="m-2" /> UI Amination <GoDiamond className="m-2" />{" "}
-        Branding Design <GoDiamond className="m-2" /> UI/UX Design{" "}
-        <GoDiamond className="m-2" /> Development <GoDiamond className="m-2" />{" "}
-        UI Amination <GoDiamond className="m-2" /> Branding Design{" "}
+        Digital Marketing <GoDiamond className="m-2" /> Software Development{" "}
+        <GoDiamond className="m-2" /> Branding Design{" "}
         <GoDiamond className="m-2" />
-        UI/UX Design <GoDiamond className="m-2" /> Development{" "}
-        <GoDiamond className="m-2" /> UI Amination <GoDiamond className="m-2" />{" "}
-        Branding Design
+        Digital Marketing <GoDiamond className="m-2" /> Software Development{" "}
+        <GoDiamond className="m-2" /> Branding Design{" "}
+        <GoDiamond className="m-2" /> Digital Marketing{" "}
+        <GoDiamond className="m-2" /> Software Development{" "}
+        <GoDiamond className="m-2" /> Branding Design{" "}
+        <GoDiamond className="m-2" />
+        Digital Marketing <GoDiamond className="m-2" /> Software Development{" "}
+        <GoDiamond className="m-2" /> Branding Design
       </marquee>
     </div>
   );

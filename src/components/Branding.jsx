@@ -4,6 +4,7 @@ import "../css/branding.css";
 import drawing from "../images/drawing.png";
 import bigLogo from "../images/big-logo.png";
 import Have from "./Have";
+import Whatsapp from "./Whatsapp";
 
 const Branding = () => {
   return (
@@ -99,6 +100,7 @@ const Branding = () => {
         </div>
       </div>
       <Have />
+      <Whatsapp />
     </div>
   );
 };
