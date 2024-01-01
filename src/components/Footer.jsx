@@ -97,12 +97,9 @@ const Footer = () => {
       </div>
       <div className="socials">
         <div className="social">
-          <Link to="/" className="connect" href="#">
+          <Link to="#" className="connect" href="#">
             <img src={twitter} alt="Logo" className="social-logo" />
           </Link>
-          {/* <Link to="/" className="connect" href="#">
-            <img src={facebook} alt="Logo" className="social-logo" />
-          </Link> */}
           <a
             href="https://www.facebook.com/profile.php?id=61552925021943&mibextid=JRoKGi"
             target="_blanck"
@@ -124,12 +121,6 @@ const Footer = () => {
           >
             <img src={instagram} alt="Logo" className="social-logo" />
           </a>
-          {/* <Link to="/" className="connect" href="#">
-            <img src={linkedin} alt="Logo" className="social-logo" />
-          </Link> */}
-          {/* <Link to="/" className="connect" href="#">
-            <img src={instagram} alt="Logo" className="social-logo" />
-          </Link> */}
         </div>
         <div className="desgin">
           <p>Designed by Qrest</p>
